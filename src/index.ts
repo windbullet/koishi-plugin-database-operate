@@ -254,7 +254,7 @@ export function apply(ctx: Context) {
     })
 
   ctx.command("database.remove <tableName:string> <query:string>", "删除", {checkArgCount: true})
-    .usage("删除指定表的数据行\ntableName为表名，query为任意数量的查询条件键值对，以半角逗号分割")
+    .usage("删除指定表的任意数据行\ntableName为表名，query为任意数量的查询条件键值对，以半角逗号分割")
     .example("database.remove koishi_user name:nonebot,age:18")
     .action(async ({session}, tableName, query) => {
       const tables = ctx.database.tables

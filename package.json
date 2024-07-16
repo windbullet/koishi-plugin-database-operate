@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-database-operate",
   "description": "在聊天平台里对机器人的数据库增删改查",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
